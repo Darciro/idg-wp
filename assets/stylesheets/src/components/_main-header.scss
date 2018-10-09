@@ -3,6 +3,12 @@
 	background-color: #2969bd;
 	padding: 21px 0;
 
+	.home &{
+		background: none;
+		position: relative;
+		z-index: 10;
+	}
+
 	.site-denomination {
 		font-size: .625rem;
 		font-weight: 700;

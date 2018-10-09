@@ -10,21 +10,46 @@
  */
 
 ?>
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'idg-wp' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'idg-wp' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'idg-wp' ), 'idg-wp', '<a href="https://github.com/darciro">Ricardo Carvalho</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer id="main-footer" style="background-color: #f1f1f1; padding: 60px 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="section-title">Redes sociais</h3>
+					<ul class="social-medias">
+						<li class="twitter">
+							<a href="#">Twitter</a>
+						</li>
+						<li class="youtube">
+							<a href="#">Youtube</a>
+						</li>
+						<li class="facebook">
+							<a href="#">Facebook</a>
+						</li>
+						<li class="flickr">
+							<a href="#">Flickr</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<h4 class="section-title">Acesso à informação</h4>
+				</div>
+				<div class="col">
+					<h4 class="section-title">O Ministério</h4>
+				</div>
+				<div class="col">
+					<h4 class="section-title">Editais e Apoios</h4>
+				</div>
+				<div class="col">
+					<h4 class="section-title">Notícias</h4>
+				</div>
+				<div class="col">
+					<h4 class="section-title">Imprensa</h4>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 <?php wp_footer(); ?>
 <!--<script id="__bs_script__">//<![CDATA[
