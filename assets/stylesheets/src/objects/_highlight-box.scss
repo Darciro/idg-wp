@@ -18,6 +18,18 @@
 			color: #fff;
 			line-height: 1.563rem;
 			text-transform: uppercase;
+			position: relative;
+
+			&:before {
+				content: '';
+				display: block;
+				width: 45px;
+				height: 3px;
+				background-color: #0094ff;
+				position: absolute;
+				top: -5px;
+				left: 0;
+			}
 		}
 
 		.box-title {

@@ -11,6 +11,7 @@ html {
 body {
 	background: $background__body;
 	font-family: $font__main;
+	position: relative;
 
 	&.high-contrast {
 		background: #000;

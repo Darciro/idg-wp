@@ -60,16 +60,13 @@
 					</button>
 					<ul id="xfeatured-links" class="nav">
 						<li class="nav-item">
-							<a class="nav-link active" href="#">Active</a>
+							<a class="nav-link" href="#">Acesso à informação</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
+							<a class="nav-link" href="#">Editais</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link disabled" href="#">Disabled</a>
+							<a class="nav-link" href="#">Outro Link</a>
 						</li>
 					</ul>
 					<!--<div class="menu-wrapper">
@@ -93,20 +90,132 @@
 				<input type="search" style="width: 100%;margin: 0;padding: 0 15px 0 20px;border: 0;background: #fff;border-radius: 30px;border: 1px solid hsla(0,0%,100%,.2);line-height: 30px;">
 			</div>
 		</div>
-		<div id="menu-wrapper" class="collapse" style="position: absolute;left: 0;right: 0;width: 100%;box-shadow: 0 8px 6px -6px #ccc;background-color: #fff;color: #333;border-bottom: 1px solid #f1f1f1;padding: 0;">
-			<div class="container">
+		<div id="menu-wrapper" class="collapse clearfix">
+			<div class="menu-content container">
 				<div class="row">
-					<div class="col-lg-3">
-						<h3>Menu #1</h3>
+					<div class="col">
+						<div class="menu-col">
+							<h3 class="menu-title">Ipsum Lorem</h3>
+							<ul>
+								<li>
+									<a href="#">Item #1</a>
+								</li>
+								<li>
+									<a href="#">Item #2</a>
+								</li>
+								<li>
+									<a href="#">Item #3</a>
+								</li>
+								<li>
+									<a href="#">Item #4</a>
+								</li>
+								<li>
+									<a href="#">Item #5</a>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-lg-3">
-						<h3>Menu #2</h3>
+					<div class="col">
+						<div class="menu-col">
+							<h3 class="menu-title">Ipsum Lorem</h3>
+							<ul>
+								<li>
+									<a href="#">Item #1</a>
+								</li>
+								<li>
+									<a href="#">Item #2</a>
+								</li>
+								<li>
+									<a href="#">Item #3</a>
+								</li>
+								<li>
+									<a href="#">Item #4</a>
+								</li>
+								<li>
+									<a href="#">Item #5</a>
+								</li>
+
+								<li>
+									<a href="#">Item #6</a>
+								</li>
+								<li>
+									<a href="#">Item #7</a>
+								</li>
+								<li>
+									<a href="#">Item #8</a>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-lg-3">
-						<h3>Menu #3</h3>
+					<div class="col">
+						<div class="menu-col">
+							<h3 class="menu-title">Ipsum Lorem</h3>
+							<ul>
+								<li>
+									<a href="#">Item #1</a>
+								</li>
+								<li>
+									<a href="#">Item #2</a>
+								</li>
+								<li>
+									<a href="#">Item #3</a>
+								</li>
+								<li>
+									<a href="#">Item #4</a>
+								</li>
+								<li>
+									<a href="#">Item #5</a>
+								</li>
+
+								<li>
+									<a href="#">Item #6</a>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-lg-3">
-						<h3>Menu #4</h3>
+					<div class="col">
+						<div class="menu-col">
+							<h3 class="menu-title">Ipsum Lorem</h3>
+							<ul>
+								<li>
+									<a href="#">Item #1</a>
+								</li>
+								<li>
+									<a href="#">Item #2</a>
+								</li>
+								<li>
+									<a href="#">Item #3</a>
+								</li>
+								<li>
+									<a href="#">Item #4</a>
+								</li>
+								<li>
+									<a href="#">Item #5</a>
+								</li>
+								<li>
+									<a href="#">Item #6</a>
+								</li>
+								<li>
+									<a href="#">Item #7</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col">
+						<div class="menu-col">
+							<h3 class="menu-title">Ipsum Lorem</h3>
+							<ul>
+								<li>
+									<a href="#">Item #1</a>
+								</li>
+								<li>
+									<a href="#">Item #2</a>
+								</li>
+								<li>
+									<a href="#">Item #3</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -17,8 +17,8 @@ get_header();
 
     <main id="main" class="site-main">
 
-        <section>
-	        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <section class="mb-5">
+	        <div id="jumbotron-carousel" class="carousel slide" data-ride="carousel">
 		        <div class="carousel-inner">
 			        <div class="carousel-item active">
 				        <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg.jpeg" alt="First slide">
@@ -30,27 +30,23 @@ get_header();
 				        <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg.jpeg" alt="Third slide">
 			        </div>
 		        </div>
-		        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		        <a class="carousel-control-prev" href="#jumbotron-carousel" role="button" data-slide="prev">
 			        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			        <span class="sr-only">Previous</span>
 		        </a>
-		        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		        <a class="carousel-control-next" href="#jumbotron-carousel" role="button" data-slide="next">
 			        <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			        <span class="sr-only">Next</span>
 		        </a>
 		        <ol class="carousel-indicators">
-			        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			        <li data-target="#jumbotron-carousel" data-slide-to="0" class="active"></li>
+			        <li data-target="#jumbotron-carousel" data-slide-to="1"></li>
+			        <li data-target="#jumbotron-carousel" data-slide-to="2"></li>
 		        </ol>
 	        </div>
-            <!--<div class="jumbotron-content" style="position:relative;">
-	            <img src="<?php /*echo get_template_directory_uri(); */?>/assets/img/bg.jpeg" style="width: 100%">
-	            <a href="#" style="position: absolute;bottom: 100px;left: 15px;">Governo lança a nova Identidade Padrão de Comunicação Digital</a>
-            </div>-->
         </section>
 
-        <section class="services mb-4" style="height: 480px;">
+        <section class="services mb-5 mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -60,63 +56,66 @@ get_header();
 		                <div class="feature-card icon-law">
 							<h3 class="card-title">Lei Rouanet</h3>
 			                <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-			                <a class="card-btn" href="#">Acesse</a>
+			                <a class="card-btn btn" href="#">Acesse</a>
 		                </div>
 	                </div>
 	                <div class="col-lg-3 mb-4 text-center">
 		                <div class="feature-card icon-edicts">
-			                <h3 class="card-title">Lei Rouanet</h3>
+			                <h3 class="card-title">Editais</h3>
 			                <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-			                <a class="card-btn" href="#">Acesse</a>
+			                <a class="card-btn btn" href="#">Acesse</a>
 		                </div>
 	                </div>
 	                <div class="col-lg-3 mb-4 text-center">
 		                <div class="feature-card icon-rocket">
-			                <h3 class="card-title">Lei Rouanet</h3>
+			                <h3 class="card-title">Apoio à projetos</h3>
 			                <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-			                <a class="card-btn" href="#">Acesse</a>
+			                <a class="card-btn btn" href="#">Acesse</a>
 		                </div>
 	                </div>
 	                <div class="col-lg-3 mb-4 text-center">
 		                <div class="feature-card icon-patrimony">
-			                <h3 class="card-title">Lei Rouanet</h3>
+			                <h3 class="card-title">Patrimônio</h3>
 			                <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-			                <a class="card-btn" href="#">Acesse</a>
+			                <a class="card-btn btn" href="#">Acesse</a>
 		                </div>
 	                </div>
 	                <div class="col-lg-3 mb-4 text-center">
 		                <div class="feature-card icon-culture-center">
-			                <h3 class="card-title">Lei Rouanet</h3>
+			                <h3 class="card-title">Centros culturais</h3>
 			                <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-			                <a class="card-btn" href="#">Acesse</a>
+			                <a class="card-btn btn" href="#">Acesse</a>
 		                </div>
 	                </div>
 	                <div class="col-lg-3 mb-4 text-center">
 		                <div class="feature-card icon-culture-points">
-			                <h3 class="card-title">Lei Rouanet</h3>
+			                <h3 class="card-title">Pontos de cultura</h3>
 			                <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-			                <a class="card-btn" href="#">Acesse</a>
+			                <a class="card-btn btn" href="#">Acesse</a>
 		                </div>
 	                </div>
 	                <div class="col-lg-3 mb-4 text-center">
 		                <div class="feature-card icon-flag">
-			                <h3 class="card-title">Lei Rouanet</h3>
+			                <h3 class="card-title">SNC</h3>
 			                <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-			                <a class="card-btn" href="#">Acesse</a>
+			                <a class="card-btn btn" href="#">Acesse</a>
 		                </div>
 	                </div>
 	                <div class="col-lg-3 mb-4 text-center">
 		                <div class="feature-card icon-creative">
-			                <h3 class="card-title">Lei Rouanet</h3>
+			                <h3 class="card-title">Economia Criativa</h3>
 			                <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-			                <a class="card-btn" href="#">Acesse</a>
+			                <a class="card-btn btn" href="#">Acesse</a>
 		                </div>
+	                </div>
+	                <div class="col-lg-12 text-center">
+		                <a href="#" class="btn text-uppercase mt-4">Acesse mais serviços</a>
 	                </div>
                 </div>
             </div>
         </section>
 
-        <section class="mb-4 mt-4" style="height: 480px">
+        <section class="mt-5 mb-5">
             <div class="container">
                 <div class="row">
 	                <div class="col-lg-12">
@@ -156,6 +155,9 @@ get_header();
 		                </div>
 	                </div>
                 </div>
+	            <div class="col-lg-12 text-center">
+		            <a href="#" class="btn text-uppercase mt-5">Mais notícias</a>
+	            </div>
             </div>
         </section>
 
@@ -219,7 +221,7 @@ get_header();
             </div>
         </section>
 
-        <section>
+        <section class="mt-5 mb-5">
             <div class="container">
                 <div class="row">
 	                <div class="col-lg-12">
@@ -249,7 +251,7 @@ get_header();
             </div>
         </section>
 
-	    <section>
+	    <section class="mt-5 mb-5">
 		    <div class="container">
 			    <div class="row">
 				    <div class="col-lg-12">
@@ -259,24 +261,28 @@ get_header();
 					    <div class="feature-card icon-talk-to-us">
 						    <h3 class="card-title">Fale conosco</h3>
 						    <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+						    <a class="card-btn btn" href="#">Acesse</a>
 					    </div>
 				    </div>
 				    <div class="col-lg-3 mb-4 text-center">
 					    <div class="feature-card icon-consultations">
 						    <h3 class="card-title">Consultas públicas</h3>
 						    <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+						    <a class="card-btn btn" href="#">Acesse</a>
 					    </div>
 				    </div>
 				    <div class="col-lg-3 mb-4 text-center">
 					    <div class="feature-card icon-ombudsman">
 						    <h3 class="card-title">Ouvidoria</h3>
 						    <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+						    <a class="card-btn btn" href="#">Acesse</a>
 					    </div>
 				    </div>
 				    <div class="col-lg-3 mb-4 text-center">
 					    <div class="feature-card icon-data">
 						    <h3 class="card-title">Dados.br</h3>
 						    <p class="card-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+						    <a class="card-btn btn" href="#">Acesse</a>
 					    </div>
 				    </div>
 			    </div>
