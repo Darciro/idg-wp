@@ -33,65 +33,81 @@
     <?php esc_html_e( 'Skip to content', 'idg-wp' ); ?>
 </a>
 
-<header id="main-header" style="position: absolute;left: 0;top: 0;right: 0;">
-	<div class="header-wrapper" style="position:relative;">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8">
-					<p class="site-denomination mb-0"><?php bloginfo( 'description' ); ?></p>
-					<h1 class="site-title mt-0 mb-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				</div>
-				<div class="col-lg-4">
-					<ul id="accessibility-bar" class="text-right">
-						<li class="high-contrast">
-							<a href="#">Alto contraste</a>
+<header id="main-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<p class="site-denomination mb-0"><?php bloginfo( 'description' ); ?></p>
+				<h1 class="site-title mt-0 mb-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			</div>
+			<div class="col-lg-4">
+				<ul id="accessibility-bar" class="text-right">
+					<li class="high-contrast">
+						<a href="#">Alto contraste</a>
+					</li>
+					<li class="vlibras">
+						<a href="#">VLibras</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-8">
+				<nav id="featured-links">
+					<button class="menu-toggle" data-toggle="collapse" data-target="#menu-wrapper" aria-controls="primary-menu" aria-expanded="false">
+						<span class="sr-only"><?php esc_html_e( 'Primary Menu', 'idg-wp' ); ?></span>
+					</button>
+					<ul id="xfeatured-links" class="nav">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Active</a>
 						</li>
-						<li class="vlibras">
-							<a href="#">VLibras</a>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
 						</li>
 					</ul>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-8">
-					<nav id="featured-links">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" style="float: left">
-							<span class="sr-only"><?php esc_html_e( 'Primary Menu', 'idg-wp' ); ?></span>
-						</button>
-						<ul id="xfeatured-links" class="nav">
-							<li class="nav-item">
-								<a class="nav-link active" href="#">Active</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link disabled" href="#">Disabled</a>
-							</li>
-						</ul>
-						<div class="menu-wrapper">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-12">
-										MENU AQUI
-									</div>
+					<!--<div class="menu-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12">
+									MENU AQUI
 								</div>
 							</div>
 						</div>
-						<?php
-						/* wp_nav_menu( array(
-							'theme_location' => 'menu-1',
-							'menu_id'        => 'primary-menu',
-						) );*/
-						?>
-					</nav>
-				</div>
-				<div class="col-lg-4">
-					<input type="search" style="width: 100%;margin: 0;padding: 0 15px 0 20px;border: 0;background: #fff;border-radius: 30px;border: 1px solid hsla(0,0%,100%,.2);line-height: 30px;">
+					</div>-->
+					<?php
+					/* wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					) );*/
+					?>
+				</nav>
+			</div>
+			<div class="col-lg-4">
+				<input type="search" style="width: 100%;margin: 0;padding: 0 15px 0 20px;border: 0;background: #fff;border-radius: 30px;border: 1px solid hsla(0,0%,100%,.2);line-height: 30px;">
+			</div>
+		</div>
+		<div id="menu-wrapper" class="collapse" style="position: absolute;left: 0;right: 0;width: 100%;box-shadow: 0 8px 6px -6px #ccc;background-color: #fff;color: #333;border-bottom: 1px solid #f1f1f1;padding: 0;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<h3>Menu #1</h3>
+					</div>
+					<div class="col-lg-3">
+						<h3>Menu #2</h3>
+					</div>
+					<div class="col-lg-3">
+						<h3>Menu #3</h3>
+					</div>
+					<div class="col-lg-3">
+						<h3>Menu #4</h3>
+					</div>
 				</div>
 			</div>
 		</div>

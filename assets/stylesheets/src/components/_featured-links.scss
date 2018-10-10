@@ -1,6 +1,22 @@
 #featured-links {
 
+	ul {
+		padding-left: 15px;
+
+		li {
+			margin-right: 20px;
+			font-size: .875rem;
+			font-weight: 500;
+
+			a {
+				color: #fff;
+				padding: 0;
+			}
+		}
+	}
+
 	.menu-toggle {
+		float: left;
 		cursor: pointer;
 		text-indent: -3000px;
 		height: 25px;
