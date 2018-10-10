@@ -60,7 +60,7 @@
 					</button>
 					<ul id="xfeatured-links" class="nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#">Acesso à informação</a>
+							<a class="nav-link" href="<?php echo home_url('/pagina-exemplo'); ?>">Acesso à informação</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">Editais</a>
@@ -87,7 +87,7 @@
 				</nav>
 			</div>
 			<div class="col-lg-4">
-				<input type="search" style="width: 100%;margin: 0;padding: 0 15px 0 20px;border: 0;background: #fff;border-radius: 30px;border: 1px solid hsla(0,0%,100%,.2);line-height: 30px;">
+				<input type="search" style="width: 100%;margin: 15px 0 0 0;padding: 0 15px 0 20px;border: 0;background: #fff;border-radius: 30px;border: 1px solid hsla(0,0%,100%,.2);line-height: 30px;">
 			</div>
 		</div>
 		<div id="menu-wrapper" class="collapse clearfix">
@@ -98,7 +98,7 @@
 							<h3 class="menu-title">Ipsum Lorem</h3>
 							<ul>
 								<li>
-									<a href="#">Item #1</a>
+									<a href="<?php echo home_url('/ola-mundo'); ?>">Item #1</a>
 								</li>
 								<li>
 									<a href="#">Item #2</a>

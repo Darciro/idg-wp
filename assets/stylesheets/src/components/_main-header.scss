@@ -1,14 +1,15 @@
 #main-header {
 	color: #fff;
 	background-color: #2969bd;
-	padding: 21px 0;
+	padding: 21px 0 0;
+	position: relative;
+	z-index: 100;
 
 	.home &{
 		position: absolute;
 		left: 0;
 		top: 0;
 		right: 0;
-		z-index: 100;
 		background: none;
 	}
 
@@ -36,7 +37,7 @@
 		height: 1px;
 		width: 100%;
 		border-bottom: 1px solid hsla(0,0%,100%,.2);
-		margin: 15px;
+		margin-top: 15px;
 	}
 
 	@import "../components/featured-links";
