@@ -36,11 +36,11 @@
 <header id="main-header">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-md-6 col-lg-8">
 				<p class="site-denomination mb-0"><?php bloginfo( 'description' ); ?></p>
 				<h1 class="site-title mt-0 mb-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-md-6 col-lg-4 d-none d-md-block">
 				<ul id="accessibility-bar" class="text-right">
 					<li class="high-contrast">
 						<a href="#">Alto contraste</a>
@@ -53,12 +53,12 @@
 		</div>
 
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-sm-1 col-md-8 col-lg-8">
 				<nav id="featured-links">
 					<button class="menu-toggle" data-toggle="collapse" data-target="#menu-wrapper" aria-controls="primary-menu" aria-expanded="false">
 						<span class="sr-only"><?php esc_html_e( 'Primary Menu', 'idg-wp' ); ?></span>
 					</button>
-					<ul id="xfeatured-links" class="nav">
+					<ul id="xfeatured-links" class="nav d-none d-md-flex">
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo home_url('/pagina-exemplo'); ?>">Acesso à informação</a>
 						</li>
@@ -69,15 +69,6 @@
 							<a class="nav-link" href="#">Outro Link</a>
 						</li>
 					</ul>
-					<!--<div class="menu-wrapper">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-12">
-									MENU AQUI
-								</div>
-							</div>
-						</div>
-					</div>-->
 					<?php
 					/* wp_nav_menu( array(
 						'theme_location' => 'menu-1',
@@ -86,7 +77,7 @@
 					?>
 				</nav>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-sm-11 col-md-4 col-lg-4">
 				<input type="search" style="width: 100%;margin: 15px 0 0 0;padding: 0 15px 0 20px;border: 0;background: #fff;border-radius: 30px;border: 1px solid hsla(0,0%,100%,.2);line-height: 30px;">
 			</div>
 		</div>
